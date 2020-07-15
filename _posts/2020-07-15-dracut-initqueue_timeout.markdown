@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "kompose"
-date:   2020-07-15 16:50:34 +0200
+date:   2020-07-15 17:00:00 +0200
 categories: jekyll update
 ---
 
