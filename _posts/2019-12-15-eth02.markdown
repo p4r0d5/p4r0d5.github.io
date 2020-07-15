@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 ETH002 - it's a two relay outputs at 16A with a ethernet module.<br>
-url: http://www.robot-electronics.co.uk/htm/eth002tech.htm
+url: [http://www.robot-electronics.co.uk/htm/eth002tech.htm](http://www.robot-electronics.co.uk/htm/eth002tech.htm)
 - default ipaddress: 192.168.0.200
 - default credentials: admin/password
 ## Commands
