@@ -2,7 +2,7 @@
 layout: post
 title:  "eth02 user guide"
 date:   2019-12-15 11:00:34 +0200
-categories: jekyll update
+categories: jekyll update eth 
 ---
 
 ETH002 - it's a two relay outputs at 16A with a ethernet module.<br>
