@@ -6,8 +6,8 @@ categories: jekyll update
 ---
 
 ETH002 - it's a two relay outputs at 16A with a ethernet module.<br>
-url: http://www.robot-electronics.co.uk/htm/eth002tech.htm <br>
-- default ipaddress: 192.168.0.200<br>
+url: http://www.robot-electronics.co.uk/htm/eth002tech.htm
+- default ipaddress: 192.168.0.200
 - default credentials: admin/password
 ## Commands
 Open: 
@@ -22,7 +22,7 @@ Status:
 {% highlight bash %}
 curl -u admin:password http://192.168.11.10/io.cgi
 {% endhighlight %}
-Other example: make output 2 active for 1 second.
+Make output 2 active for 1 second.
 {% highlight bash %}
 http://192.168.0.200/io.cgi?DOA2=10
 {% endhighlight %}
