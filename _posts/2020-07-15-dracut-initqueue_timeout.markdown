@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "kompose"
+title:  "dracut-initqueue timeout"
 date:   2020-07-15 17:00:00 +0200
 categories: jekyll update
 ---
