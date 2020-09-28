@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "git"
+date:   2020-07-29 13:21:00 +0200
+categories: jekyll update git
+---
+My ultimate GIT guide.
+
+**Remote Branch**
+
+	git checkout -b your_branch
+	git push -u origin your_branch
+
+**Save credentials** <br>
+1 edit .git/config url=https://user:password@url.git <br>
+2 edit credentials file: ~/.git-credentials (https://user:password@url.git)  <br>
+
+**Reset local uncommitted changes**
+
+	git reset --hard HEAD
