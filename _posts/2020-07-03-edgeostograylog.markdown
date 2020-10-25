@@ -11,3 +11,5 @@ edit rsys log file:
 *.*     @graylogipaddress:1514;RSYSLOG_SyslogProtocol23Format
 *.notice;local7.debug   -/var/log/messages
 {% endhighlight %}
+
+service rsyslog restart
