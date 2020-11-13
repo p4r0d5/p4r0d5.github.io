@@ -4,7 +4,7 @@ title:  "git"
 date:   2020-07-29 13:21:00 +0200
 categories: jekyll update git
 ---
-My ultimate GIT guide.
+GIT guide
 
 **Remote Branch**
 
@@ -18,3 +18,9 @@ My ultimate GIT guide.
 **Reset local uncommitted changes**
 
 	git reset --hard HEAD
+
+**Password symbols**
+```
+!   #   $    &   '   (   )   *   +   ,   /   :   ;   =   ?   @   [   ]
+%21 %23 %24 %26 %27 %28 %29 %2A %2B %2C %2F %3A %3B %3D %3F %40 %5B %5D
+```
