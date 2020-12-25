@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "microk8s"
+date:   2020-12-25 17:25:00 +0200
+categories: jekyll update elastic elasticsearch
+---
+# loadbalancer metallb
+https://metallb.universe.tf/
+MetalLB is a load-balancer implementation for bare metal Kubernetes clusters, using standard routing protocols.
+```
+microk8s enable metallb
+
+```
+Example:
+```
+microk8s kubectl create deployment hello-world --image=tutum/hello-world:latest
+kubectl expose deployment hello-world --type=LoadBalancer --port=80 --name=hello-world
+```
