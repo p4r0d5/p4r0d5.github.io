@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "microk8s"
-date:   2020-12-25 17:25:00 +0200
-categories: jekyll update elastic elasticsearch
+date:   2021-3-19 17:25:00 +0200
+categories: kubernetes microk8s
 ---
 # loadbalancer metallb
 https://metallb.universe.tf/
@@ -16,3 +16,12 @@ Example:
 microk8s kubectl create deployment hello-world --image=tutum/hello-world:latest
 kubectl expose deployment hello-world --type=LoadBalancer --port=80 --name=hello-world
 ```
+
+microk8s enable dns
+microk8s kubectl -n kube-system edit configmap/coredns
+
+# NFS-Client Provisioner
+```
+helm install stable/nfs-client-provisioner --set nfs.server=x.x.x.x --set nfs.path=/exported/path
+```
+source: https://github.com/groundhog2k/nfs-subdir-external-provisioner
