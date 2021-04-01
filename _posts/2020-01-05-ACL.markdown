@@ -15,3 +15,4 @@ setfacl -d -R -m g:group:rwX folder
 {% highlight bash %}
 setfacl -m user:george:6 ch3.doc
 {% endhighlight %}
+(https://docs.oracle.com/cd/E19683-01/817-0365/x-501cb/index.html)
