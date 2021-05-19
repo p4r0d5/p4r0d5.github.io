@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "reset smc"
+date:   2021-05-19 08:55:00 +0200
+categories: macos macbook apple
+---
+
+turn off/on and ALT, CMD, P ed R
