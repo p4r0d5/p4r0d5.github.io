@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ILO management from host"
-date:   2021-05-24 16:21:00 +0200
+date:   2021-04-24 16:21:00 +0200
 categories: HPE servers centos 
 ---
 # HPONCFG
