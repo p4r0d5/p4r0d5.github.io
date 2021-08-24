@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "git"
-date:   2020-07-29 13:21:00 +0200
+date:   2021-08-24 13:21:00 +0200
 categories: jekyll update git
 ---
 GIT guide
@@ -28,3 +28,19 @@ GIT guide
 **remove last commit and back to the previous one**
 
 git reset --hard HEAD^
+
+**Proxy settings**
+```
+[http]
+	proxy = http://user:password@proxyaddress:proxyport
+```
+
+**Clean repo with bfg**
+[https://rtyley.github.io/bfg-repo-cleaner/]: https://rtyley.github.io/bfg-repo-cleaner/
+```
+git clone --mirror git://example.com/some-big-repo.git
+java -jar bfg.jar --strip-blobs-bigger-than 100M some-big-repo.git
+cd some-big-repo.git
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+git push -f
+```
