@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "12factor"
+date:   2021-11-02 9:11:00 +0200
+categories: mkdocs-material 
+---
+https://12factor.net/
