@@ -36,7 +36,10 @@ git reset --hard HEAD^
 ```
 
 **Clean repo with bfg**
+
+
 [https://rtyley.github.io/bfg-repo-cleaner/]: https://rtyley.github.io/bfg-repo-cleaner/
+
 ```
 git clone --mirror git://example.com/some-big-repo.git
 java -jar bfg.jar --strip-blobs-bigger-than 100M some-big-repo.git
@@ -44,3 +47,15 @@ cd some-big-repo.git
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
 git push -f
 ```
+
+**Clean repo with bfg**
+```
+mkdir <repo>
+cd <repo>
+git init
+git remote add origin <url>
+git config core.sparseCheckout true
+echo "some/dir/" >> .git/info/sparse-checkout
+git pull --depth=1 origin master
+```
+source: [https://unix.stackexchange.com/questions/233327/is-it-possible-to-clone-only-part-of-a-git-project](https://unix.stackexchange.com/questions/233327/is-it-possible-to-clone-only-part-of-a-git-project)
