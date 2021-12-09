@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "12factor"
+date:   2021-12-09 13:11:00 +0200
+categories: tor
+---
+* ExoneraTor
+
+  [https://metrics.torproject.org/exonerator.html](https://metrics.torproject.org/exonerator.html)
