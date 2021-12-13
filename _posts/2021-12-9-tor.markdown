@@ -4,6 +4,7 @@ title:  "tor"
 date:   2021-12-13-09:46:00 +0200
 categories: tor
 ---
-* ExoneraTor
+* ExoneraTor<br>
+check if the ip address was/is a tor node:
 
   [https://metrics.torproject.org/exonerator.html](https://metrics.torproject.org/exonerator.html)

