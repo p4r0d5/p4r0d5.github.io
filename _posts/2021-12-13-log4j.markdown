@@ -15,3 +15,10 @@ ENV LOG4J_FORMAT_MSG_NO_LOOKUPS=true
 
 geoserver:<br>
 [http://geoserver.org/announcements/2021/12/13/logj4-rce-statement.html](http://geoserver.org/announcements/2021/12/13/logj4-rce-statement.html)
+
+test:
+[https://canarytokens.org/generate](https://canarytokens.org/generate)
+2) 
+```
+curl 127.0.0.1:8080 -H 'X-Api-Version: canarytoken'
+```
