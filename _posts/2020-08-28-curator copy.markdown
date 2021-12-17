@@ -2,7 +2,7 @@
 layout: post
 title:  "curator"
 date:   2020-09-28 15:21:00 +0200
-categories: jekyll update elastic elasticsearch
+categories: curator elastic elasticsearch
 ---
 # curator
 Elasticsearch Curator helps you curate, or manage, your Elasticsearch indices and snapshots. <br>

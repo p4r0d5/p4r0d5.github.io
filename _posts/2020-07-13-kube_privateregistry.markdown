@@ -2,7 +2,7 @@
 layout: post
 title:  "using a private registry in kubernetes"
 date:   2020-07-13 16:00:34 +0200
-categories: jekyll update
+categories: kubernetes
 ---
 create a secret with the credentials:
 {% highlight yaml %}

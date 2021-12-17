@@ -2,7 +2,7 @@
 layout: post
 title:  "mkdocs-material"
 date:   2021-10-26 14:44:00 +0200
-categories: mkdocs-material 
+categories: mkdocs-material docker
 ---
 https://hub.docker.com/r/squidfunk/mkdocs-material/
 

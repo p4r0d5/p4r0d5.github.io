@@ -2,7 +2,7 @@
 layout: post
 title:  "fail2ban working with a reverse proxy"
 date:   2020-07-13 17:58:34 +0200
-categories: jekyll update
+categories: linux fail2ban
 ---
 
 

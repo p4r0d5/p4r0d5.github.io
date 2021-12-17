@@ -2,7 +2,7 @@
 layout: post
 title:  "edgeos syslog to graylog"
 date:   2020-07-03 07:35:34 +0200
-categories: jekyll update
+categories: edgeos ubquiti
 ---
 edit rsys log file:
 /etc/rsyslog.d/vyatta-log.conf

@@ -2,7 +2,7 @@
 layout: post
 title:  "ssacli"
 date:   2020-07-29 13:21:00 +0200
-categories: jekyll update hpe ssacli
+categories: hpe ssacli
 ---
 HPE smart storage administrator command line interface.
 Source: [https://gist.github.com/mrpeardotnet/a9ce41da99936c0175600f484fa20d03](https://gist.github.com/mrpeardotnet/a9ce41da99936c0175600f484fa20d03)

@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker SANs go issue"
 date:   2021-10-11 15:05:00 +0200
-categories: HPE servers centos 
+categories: docker 
 ---
 # HPONCFG
 edit docker.service file. <br>
