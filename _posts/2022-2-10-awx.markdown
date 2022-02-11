@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "install python2 docker awx support"
-date:   2021-12-09 13:11:00 +0200
+date:   2022-02-09 13:11:00 +0200
 categories: ansible awx python docker
 ---
 ```
@@ -12,3 +12,4 @@ pip install docker==4.1.0
 pip install docker-compose==1.26.2
 
 ```
+
