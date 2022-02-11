@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "install python2 docker awx support"
+date:   2021-12-09 13:11:00 +0200
+categories: ansible awx python docker
+---
+```
+
+curl  https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
+python get-pip.py --ignore-installed
+pip install docker==4.1.0
+pip install docker-compose==1.26.2
+
+```
