@@ -59,3 +59,9 @@ echo "some/dir/" >> .git/info/sparse-checkout
 git pull --depth=1 origin master
 ```
 source: [https://unix.stackexchange.com/questions/233327/is-it-possible-to-clone-only-part-of-a-git-project](https://unix.stackexchange.com/questions/233327/is-it-possible-to-clone-only-part-of-a-git-project)
+
+**Clone single branch**
+```
+git clone https://repo.git \
+ --depth=1 --branch branchname --single-branch destpath
+ ```
