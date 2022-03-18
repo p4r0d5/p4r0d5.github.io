@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "at"
+date:   2022-03-18 14:11:00 +0200
+categories: aws http
+---
+
+* insert
+```
+at 19:00
+a bash command
+control-D #to exit and save
+```
+
+* check queue
+```
+atq
+```
