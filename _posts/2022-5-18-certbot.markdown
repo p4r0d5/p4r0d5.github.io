@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "certbot"
+date:   2022-05-18 13:03:00 +0200
+categories: letsencrypt certbot ssl tls
+---
+
+* new cert only
+```
+certbot certonly -d domain --apache --agree-tos -m myemailaddress@mydomain.com
+
+Certificate is saved at: /etc/letsencrypt/live/domain/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/domain/privkey.pem
+```
