@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "mysql bkp"
-date:   2022-05-18 11:03:00 +0200
+title:  "gpg"
+date:   2022-05-18 16:25:00 +0200
 categories: gpg git gitlab bash
 ---
 
