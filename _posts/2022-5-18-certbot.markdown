@@ -5,7 +5,7 @@ date:   2022-05-18 13:03:00 +0200
 categories: letsencrypt certbot ssl tls
 ---
 
-* new cert only
+# new certonly request
 ```
 certbot certonly -d domain --apache --agree-tos -m myemailaddress@mydomain.com
 

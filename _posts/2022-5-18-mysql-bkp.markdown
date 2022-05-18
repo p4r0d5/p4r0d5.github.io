@@ -5,7 +5,6 @@ date:   2022-05-18 11:03:00 +0200
 categories: docker mysql bash
 ---
 
-* insert
 ```
 #!/bin/bash
 #2022parodal
