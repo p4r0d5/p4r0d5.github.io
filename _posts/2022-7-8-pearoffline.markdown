@@ -11,4 +11,4 @@ cp tgz file
 pear install Foo-1.2.3.tgz
 ```
 
-source (https://pear.php.net/manual/en/guide.users.commandline.installing.php#guide.users.commandline.installing.offline)[https://pear.php.net/manual/en/guide.users.commandline.installing.php#guide.users.commandline.installing.offline]
+source [https://pear.php.net/manual/en/guide.users.commandline.installing.php#guide.users.commandline.installing.offline](https://pear.php.net/manual/en/guide.users.commandline.installing.php#guide.users.commandline.installing.offline)
