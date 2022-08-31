@@ -6,7 +6,8 @@ categories: awx ansible curl
 ---
 
 ```
-curl -k -X POST 'webohookurl' -H 'Content-Type: application/json' -H 'X-Gitlab-Token: token' --data '{ "tower_webhook_event_guid": "'$(date +%s )'"}'
+curl -k -X POST 'webohookurl' -H 'Content-Type: application/json' -H 'X-Gitlab-Token: token' --data '{ "id": "'$(date +%s )'"}'
 ```
-
-curl --noproxy '*' if no_proxy var is not working
+* note: 'We track GUIDs of webhooks that have been run before and don't allow duplicate GUIDs to run additional jobs...' </br>
+  source: [https://github.com/ansible/awx/issues/11753](https://github.com/ansible/awx/issues/11753) 
+* curl --noproxy '*' if no_proxy var is not working
