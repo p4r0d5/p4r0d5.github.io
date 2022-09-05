@@ -7,28 +7,34 @@ categories: gpg git gitlab bash
 
 
 # install
+```
 yum install -y gnupg
-
+```
 # create the key
+```
 gpg --gen-key
-
+```
 # fix the entropy requirement
-yum install rng-tools
-rngd -r /dev/urandom
+```
+yum install rng-tools -y
 
+```
 # check keys
+```
 gpg --list-secret-keys --keyid-format LONG youremail@yourdomain
-
+```
 # show key
+```
 gpg --armor --export (id)
-
+```
 # add to git
+```
 git config --global user.signingkey (sec ID)
-
+```
 # fix passphrase issue
 gpg agent never asks for passphrase.
-
+```
 export GPG_TTY=$(tty)
+```
 # source
 https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/
-```
