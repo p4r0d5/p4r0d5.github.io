@@ -17,7 +17,8 @@ gpg --gen-key
 # fix the entropy requirement
 ```
 yum install rng-tools -y
-
+systemctl disable rngd
+systemctl start rngd
 ```
 # check keys
 ```
@@ -31,10 +32,13 @@ gpg --armor --export (id)
 ```
 git config --global user.signingkey (sec ID)
 ```
-# fix passphrase issue
+# issues
+## fix passphrase issue
 gpg agent never asks for passphrase.
 ```
 export GPG_TTY=$(tty)
 ```
+## su - ussername 
+if the command gpg --gen-key is used in a 'su - username' session, use screen because it stuck in the passphrase request step!
 # source
 https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/
