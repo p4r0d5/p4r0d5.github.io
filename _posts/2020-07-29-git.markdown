@@ -65,3 +65,7 @@ source: [https://unix.stackexchange.com/questions/233327/is-it-possible-to-clone
 git clone https://repo.git \
  --depth=1 --branch branchname --single-branch destpath
  ```
+**Delete remote branch**
+```
+ git push origin --delete branchname
+```
