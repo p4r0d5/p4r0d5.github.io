@@ -20,8 +20,6 @@ You can find the source code for Jekyll at GitHub:
 How to upgrade jekyll:
 ```
 docker run -it --rm \
--e http_proxy=http://autoproxy.cec.eu.int:8012 \
--e https_proxy=http://autoproxy.cec.eu.int:8012 \
 -v $(pwd):/data \
 -w /data \
 ruby:latest \
