@@ -11,8 +11,7 @@ import pika
 credentials = pika.PlainCredentials(
             username='user', password='password'
         )
-#connection = pika.BlockingConnection(pika.ConnectionParameters('172.23.1.213'))
-host='gptmqlabtest.jrc.cec.eu.int'
+host='hostname'
 print('connecting to: ',host)
 connection = pika.BlockingConnection(
             pika.ConnectionParameters(
