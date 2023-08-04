@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "clean shards"
+title:  "clean elasticsearch shards"
 date:   2023-08-04 10:08:34 +0200
-categories: elasticsearch
+categories: elasticsearch elastic
 ---
 ## check status
 
