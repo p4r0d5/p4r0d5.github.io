@@ -6,23 +6,5 @@ permalink: /about/
 
 This is a collection of notes based on Jekyll [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
-
-How to upgrade jekyll:
-```
-docker run -it --rm \
--v $(pwd):/data \
--w /data \
-ruby:latest \
-bundle update
-```
-then commit.
+My Tumblr page: [parodal.me](https://parodal.me)              
+Notes on [Notion](https://urldefense.com/v3/__https://clover-candytuft-e92.notion.site/ee6fa47a49b94d6da300add536f11d7c?v=2b5ac44451ed480a8a4b36913d99e711__;!!DOxrgLBm!EApWQu8FOc_RoclTwwOR3o9h8pGzRgz_jqECFpHrXAKrMVFaQ8JsSDL_EAVFMe9_dsXYsTR1qCh5_iKDYYY8oHTW-XXdtw$) 
