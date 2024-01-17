@@ -69,3 +69,9 @@ git clone https://repo.git \
 ```
  git push origin --delete branchname
 ```
+
+**Windows**
+check config files: 
+```
+git config --list --show-origin
+```

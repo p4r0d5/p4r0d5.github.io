@@ -1,0 +1,4 @@
+download certs from a website.
+```
+echo "Q" | openssl s_client -connect website:443 -showcerts | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > /usr/local/share/ca-certificates/website.crt
+```
