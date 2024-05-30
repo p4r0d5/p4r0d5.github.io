@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "edit manifests with yq"
-date:   2024-05-31 15:19:00 +0200
+date:   2024-05-30 15:19:00 +0200
 categories: bash kubernetes
 ---
 
