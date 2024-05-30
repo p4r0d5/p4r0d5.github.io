@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "migreate vault storage"
+title:  "migrate vault storage"
 date:   2024-05-27 14:45:00 +0200
 categories: vault kubernetes
 ---
