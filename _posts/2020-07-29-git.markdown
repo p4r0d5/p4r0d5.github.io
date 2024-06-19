@@ -70,6 +70,15 @@ git clone https://repo.git \
  git push origin --delete branchname
 ```
 
+**merge**
+merge single commit
+```
+git merge --squash
+```
+
+**GPG**
+[note](./2022-5-18-gpg.markdown)			
+
 **Windows**
 check config files: 
 ```
