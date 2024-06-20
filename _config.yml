@@ -28,7 +28,8 @@ twitter_username: p4r0d5
 github_username:  p4r0d5
 
 # Build settings
-theme: minima
+#theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 

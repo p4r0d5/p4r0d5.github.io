@@ -76,7 +76,7 @@ merge single commit
 git merge --squash
 ```
 
-**GPG**
+**GPG**				
 [note](./2022-5-18-gpg.markdown)			
 
 **Windows**
