@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "qrcode"
+date:   2024-08-02 11:38:00 +0200
+categories: python qrcode
+---
+
+# Install
+
+```
+pip install qrcode --user
+```
+
+# Usage
+```
+qr "Some text" > test.png
+```
+
+home: [https://pypi.org/project/qrcode/](https://pypi.org/project/qrcode/)
