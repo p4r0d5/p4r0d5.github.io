@@ -79,6 +79,11 @@ git merge --squash
 **GPG**				
 [note](./2022-5-18-gpg.markdown)			
 
+**submodule**
+```
+git submodule update --init --recursive
+```
+
 **Windows**
 check config files: 
 ```
