@@ -76,6 +76,9 @@ merge single commit
 git merge --squash
 ```
 
+* '-X theirs' This strategy favors the changes from the branch you are merging in, effectively ignoring changes from the current branch where possible.					
+* '-X ours' Conversely, this option favors changes from your current branch, effectively overriding incoming changes.				
+
 **GPG**				
 [note](./2022-5-18-gpg.markdown)			
 
