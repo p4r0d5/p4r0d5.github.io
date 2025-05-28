@@ -93,3 +93,6 @@ check config files:
 git config --list --show-origin
 ```
 git passwords are stored 
+
+## git import
+[link](./2025-5-28-gitimport.markdown)     
