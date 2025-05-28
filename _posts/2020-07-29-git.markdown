@@ -80,7 +80,7 @@ git merge --squash
 * '-X ours' Conversely, this option favors changes from your current branch, effectively overriding incoming changes.				
 
 **GPG**				
-[note](./2022-5-18-gpg.markdown)			
+[note](2022-5-18-gpg.markdown)			
 
 **submodule**
 ```
@@ -95,4 +95,4 @@ git config --list --show-origin
 git passwords are stored 
 
 ## git import
-[link](./2025-5-28-gitimport.markdown)     
+[link](2025-5-28-gitimport.markdowns)     
