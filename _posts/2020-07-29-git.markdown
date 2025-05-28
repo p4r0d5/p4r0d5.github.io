@@ -95,5 +95,5 @@ git config --list --show-origin
 git passwords are stored 
 
 ## git import
-[link]{% post_url 2025-5-28-gitimport %}                 
+[link]({% post_url 2025-5-28-gitimport %})                 
 
