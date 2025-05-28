@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "qrcode"
-date:   2024-08-02 11:38:00 +0200
-categories: python qrcode
+title:  "git import"
+date:   2025-05-28 11:55:00 +0200
+categories: git
 ---
 
 ## Gitlab
